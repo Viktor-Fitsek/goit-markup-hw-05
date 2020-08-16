@@ -87,6 +87,11 @@ img {
   justify-content: space-between;
 }
 
+.header {
+  margin-bottom: 7px;
+  border-bottom: 1px solid #ececec;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -138,12 +143,12 @@ img {
 }
 .nav-list {
   display: flex;
-  padding: 0;
+  margin: 0;
 }
 
 .nav-list-item .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .current::after {
@@ -328,10 +333,6 @@ img {
 .activity-list-item {
   position: relative;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 370px;
 }
 
@@ -616,8 +617,8 @@ img {
 /* Button */
 
 .section-menu .container {
-  padding-top: 93px;
-  padding-bottom: 34px;
+  padding-top: 76px;
+  padding-bottom: 0;
 }
 .container .button-list {
   display: flex;
@@ -662,7 +663,6 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  padding-top: 34px;
   padding-bottom: 76px;
 }
 
@@ -702,7 +702,6 @@ img {
 .overlay-container {
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .overlay {
@@ -723,7 +722,6 @@ img {
 
 .gallery-titel {
   margin-bottom: 4px;
-  padding-left: 24px;
 
   font-weight: bold;
   font-size: 18px;
@@ -732,13 +730,15 @@ img {
   color: #212121;
 }
 .subtitel {
-  padding-left: 24px;
-  padding-bottom: 20px;
-
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
+}
+
+.gallery-titel-subtitel {
+  display: block;
+  padding: 20px 24px;
 }
 
 /*  Modal window */
